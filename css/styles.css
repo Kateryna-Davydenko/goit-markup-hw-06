@@ -70,7 +70,7 @@ address {
   color: #404bbf;
 }
 
-.main {
+.section-main {
   background-color: #2e2f42;
 }
 .section1-title {
@@ -95,11 +95,11 @@ address {
 .section1-btn-main:hover {
   background-color: #404bbf;
 }
-.section1-btn:focus {
+.section1-btn-main:focus {
   background-color: #404bbf;
 }
 
-.section2-subtitle {
+.section2-item-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -114,12 +114,16 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+.section3 {
+  background-color: #f4f4fd;
+}
 .section3-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -137,6 +141,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  background-color: #ffffff;
 }
 
 .section4-title {
@@ -144,6 +149,8 @@ address {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -183,4 +190,5 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  background-color: #2e2f42;
 }
