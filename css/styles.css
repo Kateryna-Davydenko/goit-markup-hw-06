@@ -73,7 +73,8 @@ address {
 .section-main {
   background-color: #2e2f42;
 }
-.section1-title {
+
+.section1-main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -82,7 +83,7 @@ address {
   color: #ffffff;
 }
 
-.section1-btn-main {
+.section1-main-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -99,7 +100,7 @@ address {
   background-color: #404bbf;
 }
 
-.section2-item-subtitle {
+.section2-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -107,7 +108,7 @@ address {
   color: #2e2f42;
 }
 
-.section2-item-title {
+.section2-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -144,7 +145,7 @@ address {
   background-color: #ffffff;
 }
 
-.section4-title {
+.section4-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -170,6 +171,9 @@ address {
   color: #434455;
 }
 
+.footer {
+  background-color: #2e2f42;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -190,5 +194,4 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background-color: #2e2f42;
 }
