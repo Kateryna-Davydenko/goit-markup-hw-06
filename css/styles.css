@@ -74,7 +74,7 @@ address {
   background-color: #2e2f42;
 }
 
-.section1-main-title {
+.section-main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -83,7 +83,7 @@ address {
   color: #ffffff;
 }
 
-.section1-main-btn {
+.section-main-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -93,14 +93,14 @@ address {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.section1-btn-main:hover {
+.section-main-btn:hover {
   background-color: #404bbf;
 }
-.section1-btn-main:focus {
+.section-main-btn:focus {
   background-color: #404bbf;
 }
 
-.section2-item-title {
+.section-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -108,17 +108,17 @@ address {
   color: #2e2f42;
 }
 
-.section2-item-text {
+.section-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section3 {
+.section {
   background-color: #f4f4fd;
 }
-.section3-team-title {
+.section-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -128,7 +128,7 @@ address {
   color: #2e2f42;
 }
 
-.section3-team-subtitle {
+.section-team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -136,7 +136,7 @@ address {
   color: #2e2f42;
 }
 
-.section3-team-text {
+.section-team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -145,7 +145,7 @@ address {
   background-color: #ffffff;
 }
 
-.section4-team-title {
+.section-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -155,7 +155,7 @@ address {
   color: #2e2f42;
 }
 
-.section4-item-title {
+.section-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -163,7 +163,7 @@ address {
   color: #2e2f42;
 }
 
-.section4-text {
+.section-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
