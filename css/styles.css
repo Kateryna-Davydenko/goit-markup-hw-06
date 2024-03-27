@@ -7,18 +7,20 @@ a {
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .header-logo-accent {
   color: #2e2f42;
 }
@@ -30,6 +32,10 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+address {
+  font-style: normal;
+}
 .header-contact-link {
   font-weight: 400;
   font-size: 16px;
@@ -39,37 +45,61 @@ body {
 }
 
 .header-menu-link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .header-menu-link:focus {
-  color: #4d5ae5;  
+  color: #404bbf;
 }
 
-.hero-title {
+.header {
+  font-style: normal;
+}
+
+.header-contact-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-contact-link:hover {
+  color: #404bbf;
+}
+.header-contact-link:focus {
+  color: #404bbf;
+}
+
+.main {
+  background-color: #2e2f42;
+}
+.section1-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #fff;
+  text-align: center;
+  color: #ffffff;
 }
 
-.hero-btn-main {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+.section1-btn-main {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn:hover {
-  color: #4d5ae5;  
+.section1-btn-main:hover {
+  background-color: #404bbf;
 }
-.hero-btn:focus {
-    color: #4d5ae5;
+.section1-btn:focus {
+  background-color: #404bbf;
 }
 
-.features-subtitle {
+.section2-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -77,7 +107,7 @@ body {
   color: #2e2f42;
 }
 
-.features-item-title {
+.section2-item-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -85,7 +115,7 @@ body {
   color: #434455;
 }
 
-.section-team-title {
+.section3-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -93,7 +123,7 @@ body {
   color: #2e2f42;
 }
 
-.section-team-subtitle {
+.section3-team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -101,7 +131,7 @@ body {
   color: #2e2f42;
 }
 
-.section-team-text {
+.section3-team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -109,7 +139,7 @@ body {
   color: #434455;
 }
 
-.port-title {
+.section4-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -117,16 +147,15 @@ body {
   color: #2e2f42;
 }
 
-.port-item-title {
+.section4-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  background-color 
   color: #2e2f42;
 }
 
-.port-text {
+.section4-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -138,7 +167,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
