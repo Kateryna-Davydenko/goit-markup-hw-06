@@ -46,7 +46,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container .header-container {
+.container .main-container {
   display: flex;
   width: 1128px;
   margin: 0 auto;
@@ -114,7 +114,6 @@ img {
   color: #434455;
   display: flex;
   gap: 40px;
-  margin: auto;
 }
 
 .header-contact-link:hover {
@@ -126,12 +125,6 @@ img {
 /* ------------------------------------------ */
 
 /* ---------------- SECTION 1 ---------------- */
-
-.container .main-container {
-  max-width: 1128px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
 .section-main {
   background-color: #2e2f42;
@@ -178,7 +171,7 @@ img {
 /* ----------------------------------------------- */
 
 /* ---------------SECTION 2 ---------------------- */
-.section {
+.section-main-item {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -220,7 +213,7 @@ img {
 /* ---------------------------------------------- */
 
 /* ------------- SECTION 3 ---------------------- */
-.section {
+.section-main-team {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -272,7 +265,7 @@ img {
 
 /* ----------------- SECTION 4 ----------------- */
 
-.section {
+.section-main-team-item {
   padding-top: 120px;
   padding-bottom: 120px;
 }
