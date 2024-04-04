@@ -48,7 +48,7 @@ img {
 }
 .container .header-container {
   display: flex;
-  width: 1158px;
+  width: 1128px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -87,6 +87,10 @@ img {
   padding: 24px 0;
 }
 
+.header-contact-list {
+  display: flex;
+  gap: 40px;
+}
 .header-contact-link {
   font-weight: 400;
   font-size: 16px;
@@ -110,6 +114,7 @@ img {
   color: #434455;
   display: flex;
   gap: 40px;
+  margin: auto;
 }
 
 .header-contact-link:hover {
@@ -120,7 +125,7 @@ img {
 }
 /* ------------------------------------------ */
 
-/* ---------------- SECTION 1---------------- */
+/* ---------------- SECTION 1 ---------------- */
 
 .container .main-container {
   max-width: 1128px;
@@ -129,6 +134,7 @@ img {
 }
 
 .section-main {
+  background-color: #2e2f42;
   padding: 188px 0;
 }
 
@@ -160,6 +166,8 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: auto;
+  margin-top: 48px;
 }
 .section-main-btn:hover {
   background-color: #404bbf;
@@ -170,7 +178,7 @@ img {
 /* ----------------------------------------------- */
 
 /* ---------------SECTION 2 ---------------------- */
-.section-list {
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -187,10 +195,9 @@ img {
   overflow: hidden;
 }
 
-.section-item {
+.section-list {
   display: flex;
   gap: 24px;
-  width: calc((100%-3 * 24px) / 4);
 }
 .section-item-title {
   font-weight: 500;
@@ -207,21 +214,27 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: calc((100%-3 * 24px) / 4);
 }
 
 /* ---------------------------------------------- */
 
 /* ------------- SECTION 3 ---------------------- */
-
-.section-team-item {
-  background-color: #ffffff;
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.section-team-item {
+  background-color: #ffffff;
+}
+
+.section-team-list {
   display: flex;
   gap: 24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+
 .section-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -273,7 +286,7 @@ img {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.section-item {
+.section-item-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
