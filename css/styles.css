@@ -42,19 +42,20 @@ img {
   max-width: 100%;
 }
 
-.container {
-  max-width: 1128px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 /* --------------- HEADER -------------- */
-
-.header-container {
-  display: flex;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
-
+.container .header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -63,9 +64,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-left: 24px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-right: 76px;
 }
 
 .header-logo-accent {
@@ -74,7 +73,7 @@ img {
 
 .header-menu-list {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -85,7 +84,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-left: 36px;
+  padding: 24px 0;
 }
 
 .header-contact-link {
@@ -94,9 +93,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-left: 800px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .header-menu-link:hover {
@@ -106,20 +102,16 @@ img {
   color: #404bbf;
 }
 
-.header {
-  font-style: normal;
-}
-
 .header-contact-list {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: flex;
+  gap: 40px;
 }
-.header-contact-link {
-  display: inline;
-}
+
 .header-contact-link:hover {
   color: #404bbf;
 }
@@ -128,12 +120,16 @@ img {
 }
 /* ------------------------------------------ */
 
-/* ---------------- SECTION ---------------- */
+/* ---------------- SECTION 1---------------- */
+
+.container .main-container {
+  max-width: 1128px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 .section-main {
-  background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .section-main-title {
@@ -159,14 +155,11 @@ img {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
   width: 169px;
   height: 56px;
-  border-radius: 4px;
   border: none;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 48px;
-  display: block;
+  border-radius: 4px;
 }
 .section-main-btn:hover {
   background-color: #404bbf;
@@ -174,16 +167,29 @@ img {
 .section-main-btn:focus {
   background-color: #404bbf;
 }
+/* ----------------------------------------------- */
 
+/* ---------------SECTION 2 ---------------------- */
 .section-list {
-  display: flex;
-  gap: 24px;
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-item {
+  display: flex;
+  gap: 24px;
   width: calc((100%-3 * 24px) / 4);
 }
 .section-item-title {
@@ -192,7 +198,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: flex;
   margin-bottom: 8px;
 }
 
@@ -203,22 +208,19 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section {
-  background-color: #f4f4fd;
-}
 
-.section-team-list {
-  display: flex;
-  gap: 16px;
-  border: 1px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 48px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
+/* ---------------------------------------------- */
+
+/* ------------- SECTION 3 ---------------------- */
+
 .section-team-item {
   background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .section-team-title {
   font-weight: 700;
@@ -228,13 +230,11 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .section-subtitle-text {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  border-top: none;
+  padding: 32px 0;
 }
 .section-team-subtitle {
   font-weight: 500;
@@ -242,7 +242,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-left: 58px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .section-team-text {
@@ -252,9 +253,16 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
-  padding-left: 68px;
+  text-align: center;
 }
+/* --------------------------------------------- */
 
+/* ----------------- SECTION 4 ----------------- */
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .section-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -263,21 +271,19 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
-
-.section-title-text {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  border-top: none;
-}
-.section-item-list {
+.section-item {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: calc((100%- 48px) / 3);
+}
+.section-title-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .section-item-title {
   font-weight: 500;
@@ -285,6 +291,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section-text {
@@ -299,6 +306,7 @@ img {
 /* ---------------- FOOTER ------------------ */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -308,6 +316,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -320,6 +330,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  display: block;
+  max-width: 264px;
 }
 /* ----------------------------------------- */
