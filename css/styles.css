@@ -238,7 +238,7 @@ h2 .visually-hidden {
   gap: 24px;
 }
 
-.section-team-item {
+li .section-team-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -292,7 +292,7 @@ h2 .visually-hidden {
   row-gap: 48px;
 }
 
-.section-item {
+li .section-item {
   width: calc((100%- 48px) / 3);
 }
 
