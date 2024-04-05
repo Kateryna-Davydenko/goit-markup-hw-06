@@ -302,7 +302,7 @@ img {
   padding-left: 0;
 }
 
-.section-item {
+.section-item-team {
   width: calc((100%- 48px) / 3);
 }
 .section-title-text {
