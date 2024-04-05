@@ -48,7 +48,8 @@ img {
   display: flex;
 }
 
-.container {
+.container .header {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
@@ -110,9 +111,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.header-contact-item {
   display: flex;
   gap: 40px;
 }
@@ -156,7 +154,7 @@ img {
   background-color: #4d5ae5;
   cursor: pointer;
   display: block;
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -176,7 +174,8 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-h2 .visually-hidden {
+
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -193,7 +192,6 @@ h2 .visually-hidden {
   display: flex;
   gap: 24px;
 }
-
 .section-item {
   width: calc((100%-3 * 24px) / 4);
 }
@@ -290,9 +288,6 @@ h2 .visually-hidden {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-
-.section-item {
   width: calc((100%- 48px) / 3);
 }
 
