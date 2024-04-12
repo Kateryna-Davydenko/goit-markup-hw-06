@@ -173,14 +173,13 @@ img {
   linear-gradient(
 rgba(46, 47, 66, 0.7),
 rgba(46, 47, 66, 0.7)),
-    url(../images/people-office1.svg);
+    url(../images/people-office.jpg);
     background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.main-container {
-  display: block;
-}
+
+
 .section-main-title {
   font-weight: 700;
   font-size: 56px;
@@ -225,6 +224,7 @@ rgba(46, 47, 66, 0.7)),
 .section-main-item {
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -243,12 +243,14 @@ rgba(46, 47, 66, 0.7)),
 .section-list {
 display: flex;
 gap: 24px;
+margin: 0;
+padding-left: 0;
 }
 .section-item {
   width: calc((100%-3 * 24px) / 4);
 }
 
-.section-main-icon {
+.main-container .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -259,11 +261,7 @@ gap: 24px;
   margin-bottom: 8px;
 }
 
-.section-icon-icon {
-  width: 64px;
-  height: 64px;
 
-}
 .section-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -315,7 +313,6 @@ gap: 24px;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: var(--white);
 }
 
 .container-subtitle-text {
