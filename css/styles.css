@@ -259,6 +259,8 @@ padding-left: 0;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
+  width: 264px;
+  padding-right: 24px;
 }
 
 
@@ -349,7 +351,7 @@ padding-left: 0;
 .section-team-list {
   display: flex;
   gap: 24px;
-  padding: 0 16px 24px 16px;
+  padding: 24px 16px 24px 16px;
 }
 
 .icon-item {
