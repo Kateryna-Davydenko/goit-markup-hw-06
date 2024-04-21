@@ -719,10 +719,10 @@ background-color: #31d0aa;
 }
 
 .modal-icon-open:hover {
-  background-color: fill #ffffff;
+  fill: #ffffff;
 }
 .modal-icon-open:focus {
-background-color: fill #ffffff;
+  fill: #ffffff;
 }
 
 .modal-title {
@@ -829,10 +829,6 @@ resize: none;
     color: #4d5ae5;
   }
 
-.check-text {
-cursor: pointer;
-display: inline-flex;
-}
 
 .modal-span {
   width: 16px;
