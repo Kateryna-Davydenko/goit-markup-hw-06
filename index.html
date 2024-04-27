@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <!--<header class="header">
+    <header class="header">
         <div class="container header-container">
             <nav class="header-nav">
                 <a href="./index.html" class="header-logo">Web<span class="header-logo-accent">Studio</span></a>
@@ -36,12 +36,78 @@
                             111-11-11</a></li>
                 </ul>
             </address>
+            <button type="button" class="menu-open-btn">
+                <svg class="menu-open-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-Group"></use>
+                </svg>
+            </button>
         </div>
-    </header>--!>
+        <div class="mob-menu visually-hidden">
+            <button type="button" class="menu-close-btn">
+                <svg class="menu-close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <nav>
+                <div>
+                <ul class="mob-menu-list">
+                    <li class="mob-menu-item"><a class="mob-menu-link current" href="./index.html">Studio</a></li>
+                    <li class="mob-menu-item"><a class="mob-menu-link" href="">Portfolio</a></li>
+                    <li class="mob-menu-item"><a class="mob-menu-link" href="">Contacts</a></li>
+                </ul>
+                </div>
+            </nav>
+            <div>
+                <ul class="mob-contact-list">
+        <li class="mob-contact-item"><a class="mob-contact-link"
+            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="mob-contact-item"><a class="mob-contact-link" href="tel:+110001111111">+11
+            (000)
+            111-11-11</a></li>
+                </ul>
+                </div>
+<ul class="mob-team-list">
+    <li class="icon-item">
+        <a href="" class="icon-link">
+            <svg class="icon-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+        </a>
+    </li>
+    <li class="icon-item">
+        <a href="" class="icon-link">
+            <svg class="icon-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+        </a>
+    </li>
+    <li class="icon-item">
+        <a href="" class="icon-link">
+            <svg class="icon-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+        </a>
+    </li>
+    <li class="icon-item">
+        <a href="" class="icon-link">
+            <svg class="icon-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+        </a>
+    </li>
+</ul>
+
+        </div>
+    </header>
 
     <!--Main-->
     <main class="main">
         <section class="section-main">
+            <picture>
+                <source srcset="./images/people-office.jpg 1x, ./images/people-office2x.jpg 2x" media="(min-width: 1158px)">
+                <source srcset="./images/Dark-bgTab.jpg 1x, ./images/Dark-bgTab2x.jpg 2x" media="(min-width: 768px)">
+                <source srcset="./images/Dark-bg-mob.jpg 1x, ./images/Dark-bg-mob2x.jpg 2x" media="(min-width: 320px)" >
+            </picture>
             <div class="container main-container">
                 <h1 class="section-main-title">Effective Solutions for Your Business</h1>
                 <button type="button" class="section-main-btn">Order Service</button>
@@ -53,7 +119,7 @@
                 <ul class="section-list">
                     <li class="section-item">
                             <div class="main-container-icon">
-                            <svg class="section-icon-icon visually-hidden" width="64" height="64">
+                            <svg class="section-icon-icon" width="64" height="64">
                             <use href="./images/icons.svg#icon-antenna"></use>
                         </svg>
                     </div>
@@ -65,7 +131,7 @@
                         </li>
                         <li class="section-item">
                         <div class="main-container-icon">
-                            <svg class="section-icon-icon visually-hidden" width="64" height="64">
+                            <svg class="section-icon-icon" width="64" height="64">
                             <use href="./images/icons.svg#icon-clock"></use>
                         </svg>
                         </div>
@@ -77,7 +143,7 @@
                         </li>
                         <li class="section-item">
                         <div class="main-container-icon">
-                        <svg class="section-icon-icon visually-hidden" width="64" height="64">
+                        <svg class="section-icon-icon" width="64" height="64">
                             <use href="./images/icons.svg#icon-diagram"></use>
                         </svg>
                         </div>
@@ -88,7 +154,7 @@
                             risk.</p>
                         </li>
                         <li class="section-item">
-                        <div class="main-container-icon visually-hidden">
+                        <div class="main-container-icon">
                         <svg class="section-icon-icon" width="64" height="64">
                             <use href="./images/icons.svg#icon-astronaut"></use>
                         </svg>
@@ -108,7 +174,9 @@
                 <h2 class="section-team-title">Our Team</h2>
                 <ul class="section-team-list">
                     <li class="section-team-item">
-                        <img class="section-team-img" src="./images/img1.jpg" alt="Mark Guerrero" width="264">
+                        <img class="section-team-img" 
+                        srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg"
+                        src="./images/img1.jpg" alt="Mark Guerrero" width="264">
                         <div class="container-subtitle-text">
                             <h3 class="section-team-subtitle">Mark Guerrero</h3>
                             <p class="section-team-text">Product Designer</p>
@@ -145,7 +213,9 @@
             </div>
                 </li>
                     <li class="section-team-item">
-                        <img class="section-team-img" src="./images/img2.jpg" alt="Tom.Ford" width="264">
+                        <img class="section-team-img"
+                        srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg"
+                        src="./images/img2.jpg" alt="Tom.Ford" width="264">
                         <div class="container-subtitle-text">
                             <h3 class="section-team-subtitle">Tom Ford</h3>
                             <p class="section-team-text">Frontend Developer</p>
@@ -182,7 +252,9 @@
                 </div>
                 </li>
                     <li class="section-team-item">
-                        <img class="section-team-img" src="./images/img3.jpg" alt="Camila.Garcia" width="264">
+                        <img class="section-team-img"
+                        srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                        src="./images/img3.jpg" alt="Camila.Garcia" width="264">
                         <div class="container-subtitle-text">
                             <h3 class="section-team-subtitle">Camila Garcia</h3>
                             <p class="section-team-text">Marketing</p>
@@ -219,7 +291,9 @@
                 </div>
                 </li>
                     <li class="section-team-item">
-                        <img class="section-team-img" src="./images/img4.jpg" alt="Daniel.Wilson" width="264">
+                        <img class="section-team-img"
+                        srcset="./images/img4.jpg 1x, ./images/img4-2x.jpg"
+                        src="./images/img4.jpg" alt="Daniel.Wilson" width="264">
                         <div class="container-subtitle-text">
                             <h3 class="section-team-subtitle">Daniel Wilson</h3>
                             <p class="section-team-text">UI Designer</p>
@@ -264,72 +338,84 @@
                 <ul class="section-item-list">
                     <li class="section-item-team">
                         <div class="section-cover-wrap">
-                        <img class="section-img" src="./images/img5.jpg" alt="Banking App" width="360">
+                        <img class="section-img"
+                        srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg"
+                        src="./images/img5.jpg" alt="Banking App" width="360">
                         <p class="section-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                         Cloud Storage App</p>
                     </div>
                         <div class="section-title-text">
-                            <h3 class="section-item-title">Banking App</h3>
+                            <h3 class="section-item-title-text">Banking App</h3>
                             <p class="section-text">App</p>
                         </div>
                     </li>
                     <li class="section-item-team">
                         <div class="section-cover-wrap">
-                        <img class="section-img" src="./images/img6.jpg" alt="Cashless Payment" width="360">
+                        <img class="section-img"
+                        srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x"
+                        src="./images/img6.jpg" alt="Cashless Payment" width="360">
                         <p class="section-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce App ·
                             Cloud Storage App</p>
                             </div>
                         <div class="section-title-text">
-                            <h3 class="section-item-title">Cashless Payment</h3>
+                            <h3 class="section-item-title-text">Cashless Payment</h3>
                             <p class="section-text">Marketing</p>
                         </div>
                     </li>
                     <li class="section-item-team">
                         <div class="section-cover-wrap">
-                        <img class="section-img" src="./images/img7.jpg" alt="Meditation App" width="360">
+                        <img class="section-img"
+                        srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x"
+                        src="./images/img7.jpg" alt="Meditation App" width="360">
                         <p class="section-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce App ·
                             Cloud Storage App</p>
                             </div>
                         <div class="section-title-text">
-                            <h3 class="section-item-title">Meditation App</h3>
+                            <h3 class="section-item-title-text">Meditation App</h3>
                             <p class="section-text">App</p>
                         </div>
                     </li>
                     <li class="section-item-team">
                         <div class="section-cover-wrap">
-                        <img class="section-img" src="./images/img8.jpg" alt="Taxi Service" width="360">
+                        <img class="section-img"
+                        srcset="./images/img8.jpg 1x, ./images/img8-2x.jpg 2x"
+                        src="./images/img8.jpg" alt="Taxi Service" width="360">
                         <p class="section-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce App ·
                             Cloud Storage App</p>
                             </div>
                         <div class="section-title-text">
-                            <h3 class="section-item-title">Taxi Service</h3>
+                            <h3 class="section-item-title-text">Taxi Service</h3>
                             <p class="section-text">Marketing</p>
                         </div>
                     </li>
                     <li class="section-item-team">
                         <div class="section-cover-wrap">
-                        <img class="section-img" src="./images/img9.jpg" alt="Screen Illustrations" width="360">
+                        <img class="section-img"
+                        srcset="./images/img9.jpg 1x, ./images/img9-2x.jpg 2x"
+                        src="./images/img9.jpg" alt="Screen Illustrations" width="360">
                         <p class="section-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce App ·
                             Cloud Storage App</p>
                             </div>
                         <div class="section-title-text">
-                            <h3 class="section-item-title">Screen Illustrations</h3>
+                            <h3 class="section-item-title-text">Screen Illustrations</h3>
                             <p class="section-text">Design</p>
                         </div>
                     </li>
                     <li class="section-item-team">
                         <div class="section-cover-wrap">
-                        <img class="section-img" src="./images/img10.jpg" alt="Online Courses" width="360">
+                        <img class="section-img"
+                        srcset="./images/img10.jpg 1x, ./images/img10-2x.jpg 2x"
+                        src="./images/img10.jpg" alt="Online Courses" width="360">
                         <p class="section-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App
                             · Exotic Fruit Ecommerce App ·
                             Cloud Storage App</p>
                             </div>
                         <div class="section-title-text">
-                            <h3 class="section-item-title">Online Courses</h3>
+                            <h3 class="section-item-title-text">Online Courses</h3>
                             <p class="section-text">Marketing</p>
                         </div>
                     </li>
