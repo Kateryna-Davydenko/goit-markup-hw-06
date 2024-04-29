@@ -341,8 +341,8 @@ width: 100%;
 
 /* ------------- SECTION 3 ---------------------- */
 .section-main-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
   background: #f4f4fd;
 }
 
@@ -450,10 +450,10 @@ box-shadow: unset;
 
 /* ----------------- SECTION 4 ----------------- */
 
-.section-main-team-item {
+/* .section-main-team-item {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 
 
 .item-container {
@@ -1188,6 +1188,9 @@ font-weight: 500;
 }
 .section-team-item {
   width: calc((100% - 72px) / 4);
+}
+.section-team-list {
+  gap: 24px;
 }
 .section-item-list {
   column-gap: 24px;
